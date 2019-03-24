@@ -1,5 +1,9 @@
 # VPC with EC2
 
+
+## Overview
+![](images/vpc-with-ec2.jpg)
+
 ## Contains
 * VPC
   * /16
@@ -35,9 +39,13 @@
 | default\_route\_id | VPC's default routetable id. |
 | igw\_id | ID of the internet gateway. |
 | kms\_mykey\_arn | KMS Key ARN. |
+
 | kms\_mykey\_id | KMS Key id. |
-| sg\_http\_ssh | Security Group id for http/ssh. |
+| s3\_state\_bucket\_arn | State bucket ARN. |
+| s3\_state\_bucket\_name | State bucket name. |
+| sg\_http\_ssh\_id | Security Group id for http/ssh. |
 | subnet\_public\_az\_a\_id | Public Subnet for AZ-A id. |
 | vpc\_cidr\_block | VPC cidr block used. |
 | vpc\_id | VPC ID. |
+| web\_ami\_id | Web EC2 Instance AMI. |
 | web\_eip | Elastic IP fo the web instance. |
