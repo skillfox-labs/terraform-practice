@@ -15,15 +15,15 @@
   * Public Route table
     * Internet gateway -> 0.0.0.0/0
     * S3 VPC Endpoint
-  * default rotue table
+  * default route table
 * Security Group
   * HTTP and SSH ingress
 * S3
-  * private acl
+  * Private ACL
   * Server side encryption
     * KMS
 * KMS
-* EC2 Intance
+* EC2 Instance
   * Elastic IP attached
 
 ## Inputs
@@ -36,15 +36,15 @@
 
 | Name | Description |
 |------|-------------|
-| default\_route\_id | VPC's default routetable id. |
+| default\_route\_id | VPC's default route-table ID. |
 | igw\_id | ID of the internet gateway. |
 | kms\_mykey\_arn | KMS Key ARN. |
 
-| kms\_mykey\_id | KMS Key id. |
+| kms\_mykey\_id | KMS Key ID. |
 | s3\_state\_bucket\_arn | State bucket ARN. |
 | s3\_state\_bucket\_name | State bucket name. |
-| sg\_http\_ssh\_id | Security Group id for http/ssh. |
-| subnet\_public\_az\_a\_id | Public Subnet for AZ-A id. |
+| sg\_http\_ssh\_id | Security Group ID for HTTP/SSH. |
+| subnet\_public\_az\_a\_id | Public Subnet for AZ-A ID. |
 | vpc\_cidr\_block | VPC cidr block used. |
 | vpc\_id | VPC ID. |
 | web\_ami\_id | Web EC2 Instance AMI. |

@@ -19,7 +19,7 @@ output "igw_id" {
 
 output "kms_mykey_id" {
   value       = "${aws_kms_key.mykey.key_id}"
-  description = "KMS Key id."
+  description = "KMS Key ID."
 }
 
 output "kms_mykey_arn" {
@@ -29,17 +29,17 @@ output "kms_mykey_arn" {
 
 output "subnet_public_az_a_id" {
   value       = "${aws_subnet.subnet_public_az_a.id}"
-  description = "Public Subnet for AZ-A id."
+  description = "Public Subnet for AZ-A ID."
 }
 
 output "sg_http_ssh_id" {
   value       = "${aws_security_group.sg_http_ssh.id}"
-  description = "Security Group id for http/ssh."
+  description = "Security Group ID for HTTP/SSH."
 }
 
 output "default_route_id" {
   value       = "${aws_default_route_table.default_route.id}"
-  description = "VPC's default routetable id."
+  description = "VPC's default routetable ID."
 }
 
 output "web_eip" {

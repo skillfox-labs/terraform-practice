@@ -3,7 +3,7 @@
 #
 # Creates an S3 Bucket
 #  - server side encryption with KMS.
-#  - blocks public policys & access control lists.
+#  - blocks public policies & access control lists.
 #
 
 resource "aws_s3_bucket" "state_bucket" {
